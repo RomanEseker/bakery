@@ -81,6 +81,26 @@ address {
   color: var(--color-primary-text);
 }
 
+.visualy-hidden {
+  position: absolute;
+  left: -1000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.indentation-section {
+  padding-top: 96px;
+}
+
 /* header section style  */
 .menu-link {
   color: var(--color-secondary-text);
@@ -120,39 +140,40 @@ address {
   color: var(--color-green-light);
 }
 
-/* section-2  */
-.section-2-list {
+/* section-3  */
+.section-3-list {
   font-size: 20px;
   color: var(--color-secondary-text);
 }
 
-/* section-3  */
 .section-3-span {
-  color: var(--color-green-dark);
+  color: var(--color-green-light);
 }
 
-.fsection-3-subtitle {
+/* section-4  */
+.section-4-span {
+  color: var(--color-green-light);
+}
+
+.fsection-4-subtitle {
   font-size: 40px;
   font-weight: 600;
   color: var(--color-primary-text);
 }
 
-/* section-4  */
-.section-4-title {
+/* section-5  */
+.section-5-title {
   font-size: 24px;
   font-weight: 600;
   color: var(--color-secondary-text);
 }
 
-.section-4-descriptions {
+.section-5-descriptions {
   font-size: 14px;
   font-weight: 300;
 }
 
 /* section-5  */
-.section-4-descriprtion {
-  color: var(--color-green-dark);
-}
 
 /* footer  */
 .link-adress {
@@ -164,4 +185,9 @@ address {
 .copyright {
   font-size: 14px;
   color: var(--color-form);
+}
+
+/* section 6  */
+.section-6-descriprtion {
+  color: var(--color-green-dark);
 }
