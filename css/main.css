@@ -106,6 +106,26 @@ address {
 }
 
 /* header section style  */
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 40px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 64px;
+  flex-grow: 1;
+  justify-content: center;
+}
+
 .menu-link {
   color: var(--color-secondary-text);
   transition: 0.3s;
@@ -113,7 +133,7 @@ address {
 
 .menu-link:hover {
   color: var(--color-green-light);
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .button {
@@ -145,13 +165,40 @@ address {
 }
 
 /* section-2  */
+.section-2 {
+  background-color: var(--color-green-light);
+  padding: 16px 0;
+}
+
 .section-2-list {
-  font-size: 20px;
-  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.section-2-list-item {
   color: var(--color-secondary-text);
 }
 
 /* section-3  */
+.traditions-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.traditions-content {
+  max-width: 710px;
+}
+
+.traditions-content:first-child {
+  max-width: 675px;
+}
+
+.descriprion-indentation.limited {
+  max-width: 345px;
+}
+
 .section-3-list {
   font-size: 20px;
   color: var(--color-secondary-text);
@@ -179,12 +226,29 @@ address {
   color: var(--color-secondary-text);
 }
 
-.section-5-descriptions {
+.format-card {
+  border: 1px solid lightgray; /*remove */
+  border-radius: 16px;
+  padding: 24px;
+  min-height: 444px;
+}
+
+.section-5-format-text {
   font-size: 14px;
   font-weight: 300;
 }
 
-/* section-5  */
+.formats-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.formats-item {
+  flex-basis: calc((100% - 40px) / 3);
+}
+
+/* section-6  */
 
 /* footer  */
 .link-adress {
