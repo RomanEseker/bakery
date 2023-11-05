@@ -81,6 +81,10 @@ address {
   color: var(--color-primary-text);
 }
 
+.title-section-indentation {
+  margin-bottom: 80px;
+}
+
 .visualy-hidden {
   position: absolute;
   left: -1000px;
@@ -140,6 +144,13 @@ address {
   color: var(--color-green-light);
 }
 
+/* section-2  */
+.section-2-list {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--color-secondary-text);
+}
+
 /* section-3  */
 .section-3-list {
   font-size: 20px;
@@ -150,11 +161,11 @@ address {
   color: var(--color-green-light);
 }
 
-/* section-4  */
-.section-4-span {
-  color: var(--color-green-light);
+.descriprion-indentation {
+  margin: 42px 0;
 }
 
+/* section-4  */
 .fsection-4-subtitle {
   font-size: 40px;
   font-weight: 600;
@@ -190,4 +201,5 @@ address {
 /* section 6  */
 .section-6-descriprtion {
   color: var(--color-green-dark);
+  margin: 16px 0 42px 0;
 }
